@@ -1,0 +1,16 @@
+Add Sample Patients
+INSERT INTO patients (first_name, last_name, age, gender)
+VALUES
+('John', 'Doe', 45, 'Male'),
+('Jane', 'Smith', 32, 'Female'),
+('Mark', 'Johnson', 28, 'Male');
+
+Add Sample Departments
+INSERT INTO departments (name)
+VALUES
+('Cardiology'),
+('Neurology'),
+('Oncology');
+
+get table
+SELECT * FROM patients;
